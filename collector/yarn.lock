@@ -51,6 +51,11 @@
   dependencies:
     googleapis-common "^6.0.3"
 
+"@huggingface/jinja@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@huggingface/jinja/-/jinja-0.2.2.tgz#faeb205a9d6995089bef52655ddd8245d3190627"
+  integrity sha512-/KPde26khDUIPkTGU82jdtTW9UAuvUTumCAbFs/7giR0SxsvZC4hru51PBvpijH6BVkHcROcvZM/lpy5h1jRRA==
+
 "@langchain/core@~0.0.8":
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/@langchain/core/-/core-0.0.9.tgz#3b4e74693eddcfa5f6e649857b561d3a9b60d1d4"
@@ -222,11 +227,12 @@
   dependencies:
     "@types/node" "*"
 
-"@xenova/transformers@^2.11.0":
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/@xenova/transformers/-/transformers-2.11.0.tgz#db9695240e5880823bee9199f27d7e51e7a09379"
-  integrity sha512-i/oaTbVJI+pbkWiUZydmaGFlSh3167N+gimkIJBlHf150wQWffwGE9dPttLsS9cLlmty95Z1MkVQmibl/j7bSg==
+"@xenova/transformers@^2.16.0":
+  version "2.16.1"
+  resolved "https://registry.yarnpkg.com/@xenova/transformers/-/transformers-2.16.1.tgz#934e5d0a2ccec305c082c5d09523ba0b495f17f9"
+  integrity sha512-p2ii7v7oC3Se0PC012dn4vt196GCroaN5ngOYJYkfg0/ce8A5frsrnnnktOBJuejG3bW5Hreb7JZ/KxtUaKd8w==
   dependencies:
+    "@huggingface/jinja" "^0.2.2"
     onnxruntime-web "1.14.0"
     sharp "^0.32.0"
   optionalDependencies:
