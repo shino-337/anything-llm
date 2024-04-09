@@ -2260,10 +2260,10 @@ object-inspect@^1.9.0:
   resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.12.3.tgz#ba62dffd67ee256c8c086dfae69e016cd1f198b9"
   integrity sha512-geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==
 
-officeparser@^4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/officeparser/-/officeparser-4.0.5.tgz#61ad3eb81a436170efa29dbe1ea5937f0e90e619"
-  integrity sha512-8uUuNCaafpHH5bF1uxLS0KxAzgN5KiX1K8GADqwCoebUJo8TlZR7EGEbJwdl5lG2OtDBJWNzujREkIM4fy5I3Q==
+officeparser@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/officeparser/-/officeparser-4.0.8.tgz#46def4a4664e8e2a36717bc5ae2bd99298eab565"
+  integrity sha512-dIVwWkKWwFy7qQO+8foRTTDJybs3CEJORDulCQPqirqhtiK2cETojmuekRtBcVebpcAKCXTg4dYs0mjmifwJKA==
   dependencies:
     "@xmldom/xmldom" "^0.8.10"
     decompress "^4.2.0"
